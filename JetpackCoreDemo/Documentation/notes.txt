@@ -1,0 +1,14 @@
+
+
+JetpackCoreDemo
+
+- Create git repository on github, clone to local filesystem
+
+- In the local cloned repo folder, Created new Visual Studio 2017 solution. (do not create git repo, already in one)
+	- .NET Core 2.2 Web Application
+
+- in Windows Explorer, create 'Documentation' folder in the new solution folder we just created.
+- In Visual Studio, Add solution folder named 'Documentation'  (this doesn't create a filesystem folder)
+- in Windows explorer, create a text file. Back in VS, add that text file as existing item to Documentation folder.
+
+
