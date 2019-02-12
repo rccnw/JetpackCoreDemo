@@ -12,3 +12,67 @@ JetpackCoreDemo
 - in Windows explorer, create a text file. Back in VS, add that text file as existing item to Documentation folder.
 
 
+
+
+Building elegant applications with ASP.NET Core MVC 2.1 and CoreUI 2 (Bootstrap 4)
+https://www.coderepo.blog/posts/building-elegant-applications-aspnet-core-mvc-2.1-coreui-2-bootstrap-4/
+
+
+
+
++		InnerException	{System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)}	System.Exception {System.Net.Sockets.SocketException}
+
+
+   search:
+   WebAPI MVC  localhost "No connection could be made because the target machine actively refused it localhost"
+
+
+
+   Configure ASP.NET Core to work with proxy servers and load balancers
+   https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/proxy-load-balancer?view=aspnetcore-2.2
+
+   Enable cross-origin requests in ASP.NET Web API 2  (Full framework)
+   https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/enabling-cross-origin-requests-in-web-api
+
+   Creating ASP.NET Core 2.2 & Angular 7 Application - Enabling CORS
+   https://www.youtube.com/watch?v=KolCWRIQyoA
+   https://gist.github.com/demonguru18/2466a7b28572da57d5277b34397e397e
+
+   Enable Cross-Origin Requests (CORS) in ASP.NET Core					 11/26/2018
+   https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-2.2
+
+   Application Parts in ASP.NET Core
+   https://docs.microsoft.com/en-us/aspnet/core/mvc/advanced/app-parts?view=aspnetcore-2.2
+   https://github.com/aspnet/AspNetCore/issues/4527
+
+
+
+   Unrelated ?
+   https://devforum.okta.com/t/socketexception-no-connection-could-be-made-because-the-target-machine-actively-refused-it/2213/6
+
+   We solved our issue. We have a proxy server on prem. If you have a similar situation, add this to your AddOpenIdConnect options:
+
+	var proxy = new WebProxy("proxy_server_url") {
+		Credentials = CredentialCache.DefaultNetworkCredentials
+	};
+	options.BackchannelHttpHandler = new HttpClientHandler() { Proxy = proxy };
+
+
+
+	https://jetpackfunctionapp1.azurewebsites.net/
+
+
+	Strategies for testing your code in Azure Functions
+	https://docs.microsoft.com/en-us/azure/azure-functions/functions-test-a-function
+
+
+	https://blogs.msdn.microsoft.com/benjaminperkins/2018/11/02/azure-functions-http-trigger/
+
+	https://tahirnaushad.com/2017/09/04/consuming-asp-net-core-2-0-web-api-using-httpclient/
+
+
+	https://www.stevejgordon.co.uk/introduction-to-httpclientfactory-aspnetcore
+	HttpClientFactory in ASP.NET Core 2.1 (Part 3)
+	https://www.stevejgordon.co.uk/httpclientfactory-aspnetcore-outgoing-request-middleware-pipeline-delegatinghandlers
+
