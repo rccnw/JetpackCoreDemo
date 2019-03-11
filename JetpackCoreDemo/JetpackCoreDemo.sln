@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JetpackCoreWebAPI", "JetpackCoreWebAPI\JetpackCoreWebAPI.csproj", "{3CA1D3E6-6F92-49B1-BD72-68F0EFAD7ACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JetpackFunctionApp1", "JetpackFunctionApp1\JetpackFunctionApp1.csproj", "{EB276568-816E-4201-8970-1F62294FE96E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPurgeFunction", "DataPurgeFunction\DataPurgeFunction.csproj", "{B2C06C4C-8DD4-47E9-9D48-2606CCE40F20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,10 +28,10 @@ Global
 		{3CA1D3E6-6F92-49B1-BD72-68F0EFAD7ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA1D3E6-6F92-49B1-BD72-68F0EFAD7ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA1D3E6-6F92-49B1-BD72-68F0EFAD7ACE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB276568-816E-4201-8970-1F62294FE96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB276568-816E-4201-8970-1F62294FE96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB276568-816E-4201-8970-1F62294FE96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB276568-816E-4201-8970-1F62294FE96E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C06C4C-8DD4-47E9-9D48-2606CCE40F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C06C4C-8DD4-47E9-9D48-2606CCE40F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C06C4C-8DD4-47E9-9D48-2606CCE40F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C06C4C-8DD4-47E9-9D48-2606CCE40F20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

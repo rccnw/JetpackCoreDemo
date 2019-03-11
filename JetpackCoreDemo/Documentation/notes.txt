@@ -76,3 +76,14 @@ https://www.coderepo.blog/posts/building-elegant-applications-aspnet-core-mvc-2.
 	HttpClientFactory in ASP.NET Core 2.1 (Part 3)
 	https://www.stevejgordon.co.uk/httpclientfactory-aspnetcore-outgoing-request-middleware-pipeline-delegatinghandlers
 
+
+
+
+	
+Azure functions V2 with EF Core
+https://dibranmulder.github.io/2018/08/23/Azure-functions-V2-with-EF-Core/
+
+
+Nuget package required:
+	Willezone.Azure.WebJobs.Extensions.DependencyInjection
+
