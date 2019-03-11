@@ -84,6 +84,15 @@ Azure functions V2 with EF Core
 https://dibranmulder.github.io/2018/08/23/Azure-functions-V2-with-EF-Core/
 
 
+Dependency Injection Extensions for Azure Functions v2
+https://github.com/rccnw/azure-function-dependency-injection
+
+
+
 Nuget package required:
 	Willezone.Azure.WebJobs.Extensions.DependencyInjection
 
+
+
+	Dependency Injection in Attributes: don’t do it!
+	https://blogs.cuttingedge.it/steven/posts/2014/dependency-injection-in-attributes-dont-do-it/
