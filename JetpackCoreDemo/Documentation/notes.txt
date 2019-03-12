@@ -96,3 +96,31 @@ Nuget package required:
 
 	Dependency Injection in Attributes: don’t do it!
 	https://blogs.cuttingedge.it/steven/posts/2014/dependency-injection-in-attributes-dont-do-it/
+
+
+Performing Constructor Injections on Azure Functions V2
+https://devkimchi.com/2019/02/22/performing-constructor-injections-on-azure-functions-v2/
+
+Dependency Injections on Azure Functions V2
+https://devkimchi.com/2018/04/07/dependency-injections-on-azure-functions-v2/
+
+	
+Azure Function With Entity Framework (Aug 2018) 
+https://www.c-sharpcorner.com/article/azure-function-with-entity-framework/
+
+
+Azure Functions v2 Now Uses ASP.NET Core Configuration and No Longer Supports ConfigurationManager
+https://blog.jongallant.com/2018/01/azure-function-config/
+
+code:
+https://github.com/jongio/azure-function-config
+
+Azure functions v2 with ASP.NET Core Configuration (Database First)
+
+https://stackoverflow.com/questions/52832390/azure-functions-v2-with-asp-net-core-configuration-database-first
+
+
+http://thedatafarm.com/blog/
+Building C# Project-based Azure Functions in Visual Studio Code
+http://thedatafarm.com/serverless/building-c-project-based-azure-functions-in-visual-studio-code/
+
